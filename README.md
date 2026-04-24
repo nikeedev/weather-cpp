@@ -1,4 +1,4 @@
-# weather-rs: Your terminal weather app 
+# weather-cpp: Your terminal weather app 
 
 <img src="video.gif" alt="video.gif" style="width: 700px;">
 
@@ -11,22 +11,22 @@ This program is made purely for fun, so enjoy!
 
 Setting custom latitude and longitude:
 ```sh
-weather-rs --lat 59.000000 --long 5.000000
+weather-cpp --lat 59.000000 --long 5.000000
 ```
 ---
 Setting custom name:
 ```sh
-weather-rs --lat 59.000000 --long 5.000000
+weather-cpp --lat 59.000000 --long 5.000000
 ```
 ---
 Print out short version of the weather (ideal for shell startup scripts)
 ```sh
-weather-rs --short
+weather-cpp --short
 ```
 ---
 Use predefined place using the name
 ```sh
-weather-rs --place "Galdhøpiggen"
+weather-cpp --place "Galdhøpiggen"
 ```
 
 ## Using the `places.json` file:
